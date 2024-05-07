@@ -1,0 +1,48 @@
+﻿@model IEnumerable<WebProveedores.Models.Data.Proveedor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Proveedores</h1>
+
+<p>
+    <a asp-action="Create">Crear Proveedor</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Codigo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RazonSocial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RFC)
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Codigo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RazonSocial)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RFC)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdProveedor">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdProveedor">Eliminar</a> |
+                    <a asp-controller="Producto" asp-action="Index" asp-route-id="@item.IdProveedor">Productos</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

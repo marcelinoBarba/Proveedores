@@ -1,0 +1,72 @@
+﻿@model IEnumerable<WebProveedores.Models.Data.Producto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@if (ViewData["ProveedorCodigo"] != null)
+{
+    <h3> Proveedor: @ViewData["ProveedorCodigo"]</h3>
+}
+else
+{
+    <h3> Productos</h3>
+}
+
+@if (ViewData["ProveedorId"] != null)
+{
+
+    <p>
+        <a asp-action="Create" asp-route-id="@ViewData["ProveedorId"] ">Crear Producto Para el proveedor</a>
+    </p>
+}
+else{
+    <p>
+        <a asp-action="Create">Crear Producto</a>
+    </p>
+
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Proveedor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Codigo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Unidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Costo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Proveedor.Codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Unidad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Costo)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

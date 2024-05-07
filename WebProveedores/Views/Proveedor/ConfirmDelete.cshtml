@@ -1,0 +1,13 @@
+﻿@model WebProveedores.Models.Data.Proveedor
+
+@{
+    ViewData["Title"] = "Confirmar Eliminacion";
+}
+<h2>Confirmar eliminación</h2>
+<p>El proveedor '@Model.Codigo' tiene productos asociados. ¿Está seguro de que desea eliminarlo?</p>
+
+<form asp-action="ConfirmDeleteConfirmed" asp-route-id="@Model.IdProveedor" method="post">
+    <input type="hidden" asp-for="IdProveedor" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
