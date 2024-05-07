@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+A+Wa5Wx51bdlbDc0oP49iLgajmJ7mFfXcwzNCrNOfHGs8yn1lNeq0jN1hQwH3CywYtdvPyaqPMPlD9nZNfOnw==",
+  "dgSpecHash": "8vltmpbXb9tbFvElDrDum6vsTRIFj+zHSCpGSaTfFtHHbWE68q8MzpxwQIZMDLm3wSCpjQcFySbOM5W2uJg6Vw==",
   "success": true,
-  "projectFilePath": "C:\\code\\WebProveedores\\WebProveedores\\WebProveedores.csproj",
+  "projectFilePath": "C:\\code\\Proveedores\\WebProveedores\\WebProveedores.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

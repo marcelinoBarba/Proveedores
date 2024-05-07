@@ -25,17 +25,16 @@ namespace WebProveedores.Controllers
 
             if (id == null)
             {
-                var applicationDbContext = _context.Productos.Include(p => p.Proveedor);
-                return View(applicationDbContext.ToList());
+                var productosTodos = _context.Productos.Include(p => p.Proveedor);
+                return View(productosTodos.ToList());
             }
 
             var proveedor = _context.Proveedores.Where(w => w.IdProveedor == id).FirstOrDefault();
-            var proveedores = _context.Productos.Where(w => w.IdProveedor == id);
-
             ViewData["ProveedorCodigo"] = proveedor.Codigo;
             ViewData["ProveedorId"] = proveedor.IdProveedor;
 
-            return View(proveedores.ToList());
+            var productos = _context.Productos.Where(w => w.IdProveedor == id);
+            return View(productos.ToList());
 
         }
 

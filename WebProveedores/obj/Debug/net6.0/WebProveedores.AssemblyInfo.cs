@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebProveedores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fc57c3cf84261dcdf8245d296818ae98c1d7853")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebProveedores")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebProveedores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

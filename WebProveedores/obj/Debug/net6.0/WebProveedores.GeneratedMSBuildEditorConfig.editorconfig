@@ -9,63 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebProveedores
 build_property.RootNamespace = WebProveedores
-build_property.ProjectDir = C:\code\WebProveedores\WebProveedores\
+build_property.ProjectDir = C:\code\Proveedores\WebProveedores\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\code\WebProveedores\WebProveedores
+build_property.MSBuildProjectDirectory = C:\code\Proveedores\WebProveedores
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/code/WebProveedores/WebProveedores/Views/Home/Index.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/Producto/Create.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/Producto/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/Producto/Index.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/Producto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/Proveedor/ConfirmDelete.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/Proveedor/ConfirmDelete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXENvbmZpcm1EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/Proveedor/Create.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/Proveedor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/Proveedor/Edit.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/Proveedor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/Proveedor/Index.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/Proveedor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/Proveedor/Products.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/Proveedor/Products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb2R1Y3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/Shared/Error.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/_ViewImports.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/_ViewStart.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/code/WebProveedores/WebProveedores/Views/Shared/_Layout.cshtml]
+[C:/code/Proveedores/WebProveedores/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ywjor5vyku

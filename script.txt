@@ -1,0 +1,24 @@
+#1
+SELECT pedidos.idPedido, pedidos.NumPedido
+FROM pedidos
+JOIN cotizaciones  ON pedidos.idPedido = cotizaciones.idPedido
+JOIN requisiciones ON pedidos.IdCotizacion = requisiciones.IdCotizacion
+WHERE MONTH(requisiciones.FechaCreacion) = MONTH(GETDATE()) AND YEAR(requisiciones .FechaCreacion) = YEAR(GETDATE())
+
+#2
+SELECT  proveedores.idProveedor, proveedores.codigo
+FROM proveedores
+JOIN cotizaciones  ON proveedores.idProveedor = cotizaciones.idProveedor
+JOIN pedidos ON pedidos.IdCotizacion = cotizaciones  .IdCotizacion
+WHERE pedidos.Estatus = 1
+
+
+#3 
+SELECT  proveedores.idProveedor, proveedores.codigo
+FROM proveedores 
+JOIN cotizaciones  ON proveedores.idProveedor = cotizaciones.idProveedor
+JOIN requisiciones  ON cotizaciones.idRequisicion = requisiciones.idRequisicion
+LEFT JOIN pedidos ON cotizaciones.idCotizacion = pedidos.idCotizacion
+WHERE requisiciones.estatus = 1
+AND cotizaciones.cancelada = false
+AND pedidos.idPedido IS NULL;

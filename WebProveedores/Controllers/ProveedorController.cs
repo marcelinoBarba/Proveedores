@@ -17,8 +17,7 @@ namespace WebProveedores.Controllers
 
         public IActionResult Index()
         {
-            List<Proveedor> listProveedores = _context.Proveedores.ToList();
-            return View(listProveedores);
+            return View(_context.Proveedores.ToList());
         }
 
         public IActionResult Create()
@@ -107,7 +106,6 @@ namespace WebProveedores.Controllers
             }
 
             bool tieneProductos = _context.Productos.Any(p => p.IdProveedor == id);
-
             if (tieneProductos)
             {
                 return RedirectToAction("ConfirmDelete", new { id = proveedor.IdProveedor });
